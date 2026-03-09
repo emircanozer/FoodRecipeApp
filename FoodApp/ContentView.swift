@@ -36,7 +36,7 @@ struct NewRecipe: Encodable {
 struct ContentView: View {
 
     // API Keys
-    let apiKey = "AIzaSyCe_0Eclyu2g9PvzFDN--3VQl-yrY_QKHw"
+    let apiKey = Secrets.geminiAPIKey
     let supabase = FoodApp.supabase
 
     // Preferences
